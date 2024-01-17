@@ -1,0 +1,1 @@
+/usr/bin/mysqldump -v -h br540.hostgator.com.br -u cons0645_oficina -p'wk2021' cons0645_oficina | gzip > /home1/cons0645/oficina.consultoriawk.com/backups/mysql/cons0645_oficina-`date '+%d-%m-%y'`.sql
